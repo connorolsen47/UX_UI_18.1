@@ -1,0 +1,173 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+.background{
+	background: #343E47;
+	height: 750px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 375px;
+}
+
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	width: 100%;
+}
+
+.menu a{
+	color: white;
+	float: right;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: grey;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.par{
+	color: white;
+	margin-left: 290px;
+	margin-top: 290px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25pt;
+}
+
+.slide{
+  margin: auto;
+  margin-bottom: 50px;
+}
+.carousel{
+  justify-content: center;
+  width: 50%
+}
+
+h1{
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 23pt;
+}
+
+p{
+  margin-right: 25%;
+  margin-left: 25%;
+  font-size: 17pt;
+  margin-bottom: 50px;
+}
+
+button{
+opacity: 0.1;
+border: none;
+max-height: 7%;
+margin-top: auto;
+}
+
+span{
+  color: black;
+}
+
+
+footer{
+  height: 100px;
+  width: 100%;
+  background: #343E47;
+}
+
+.navBottom{
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  width: 100%;
+}
+
+.navBottom a{
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1300px) {
+	.par{
+		margin-left: 100px;
+	}
+
+	button{
+		margin-left: 100px;
+	}
+}
+
+ @media only screen and (max-width: 768px) {
+  .par {
+    margin-left: 30px;
+  } 
+  button {
+  	margin-left: 30px;
+  }
+
+  .menu{
+  	justify-content: space-around;
+  }
+
+  .navBottom {
+  	justify-content: space-around;
+  }
+
+  .portfolio {
+  	padding: 10px;
+  }
+  .column {
+  	padding: 20px;
+  }
+  .images{
+  	height: 250px;
+  }
+  .images2{
+  	height: 250px;
+  }
+  .images3{
+  	height: 250px;
+  }
+
+  .mySkills{
+  	margin-left: 50px;
+  	margin-right: 50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .par {
+    margin-left: 20px;
+  } 
+
+  button {
+  	margin-left: 20px;
+  }
+
+  .mySkills{
+  	margin-bottom: 50px;
+  }
+}
